@@ -1,0 +1,15 @@
+#headingOne{
+    color:brown;
+
+}
+#headingtwo{
+    color:rgb(99, 198, 139);
+    
+}
+body{
+    background-color: rgb(164, 199, 100);
+}
+button{
+    color:#ffff00;
+    background-color: chartreuse;
+}

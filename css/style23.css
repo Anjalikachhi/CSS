@@ -1,0 +1,36 @@
+a{
+
+    text-decoration: red;
+    text-decoration: none;
+    
+}
+li{list-style-type: none;
+    display:inline;
+    
+
+}
+div{
+    
+    background-color: pink;
+    border:2px solid black;
+display: flex;
+    flex-direction: row;
+ justify-content: space-evenly;
+
+}
+.outer{
+    height:400px;
+    width:400px;
+    background-color: blue;
+    display:flex;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+ }
+ .inner{
+    height:100px;
+    width:100px;
+    background-color: springgreen;
+    align-self: self-end;
+ }
+

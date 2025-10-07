@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width:100px;
+    display:inline-block;
+    border:20px solid black ;
+}
+#box1{
+position:fixed;
+}
+#box2{position:absolute;
+    left:10px;
+    top:10px;
+    z-index: 1;
+
+}

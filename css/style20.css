@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+    width: 200px;
+    border:10px solid black;
+    display:inline-block;
+    background-color: aquamarine;
+    
+}
+#box1{
+background-image:url(../../../../Downloads/Gemini_Generated_Image_hy0xcwhy0xcwhy0x.png);
+    background-size: contain;
+    /* background-size: auto;
+    background-size: cover; */
+
+}

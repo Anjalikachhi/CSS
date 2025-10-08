@@ -8,13 +8,16 @@ div{
     transition-timing-function: steps(5);
     transition-delay: 1s; */
     transition: font-size 2s ease-in-out 0.2s ;
-    transform:rotate(45deg);
-
+    /* transform:rotate(45deg); */
+  
 }
 div:hover{
     background-color: blue;
     color:crimson;
     font-size: 20px;
+    transform: skew(45deg);
+      /* transform: translateY(200px); */
+
 }
 div:active{
     background-color: pink;

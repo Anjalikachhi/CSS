@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Full viewport height */
+}
+
+.scale-hover-box {
+  transition: transform 0.3s ease;
+  background: #ff9800;
+  color: white;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+}
+.scale-hover-box:hover {
+  transform: scale(1.2);
+}

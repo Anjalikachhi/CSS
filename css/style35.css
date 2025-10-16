@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f0f0f0, #dfe9f3);
+  margin: 0;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: #3498db;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  animation: bounceRotate 2s infinite ease-in-out;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect */
+.box:hover {
+  transform: scale(1.1) rotate(10deg);
+  background-color: #2ecc71;
+}
+
+/* Keyframes for bounce and rotation */
+@keyframes bounceRotate {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-80px) rotate(15deg);
+  }
+}

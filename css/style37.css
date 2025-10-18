@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e2f;
+  margin: 0;
+}
+
+.glow-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #6c5ce7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #6c5ce7;
+  animation: pulse 2s infinite;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glow-button:hover {
+  background-color: #00cec9;
+  box-shadow: 0 0 20px #00cec9;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px #6c5ce7;
+  }
+  50% {
+    box-shadow: 0 0 20px #a29bfe;
+  }
+  100% {
+    box-shadow: 0 0 10px #6c5ce7;
+  }
+}

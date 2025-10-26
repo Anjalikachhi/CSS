@@ -1,0 +1,115 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.856);
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  color: #ffd700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-image: url('image/tr.png');
+  min-height:150px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero button {
+  padding: 0.8rem 1.5rem;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.hero button:hover {
+  transform: scale(1.1);
+}
+
+.gallery {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.gallery h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ffd700;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color:  rgba(0, 0, 0, 0.856);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px #ffd700;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color:  rgba(0, 0, 0, 0.856);
+  font-size: 0.9rem;
+}
